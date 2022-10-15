@@ -1,0 +1,117 @@
+*{
+margin: 0;
+padding: 0;
+outline: 0 !important;
+}
+.logoimage{
+    float: left;
+    padding-right: 3%;
+    height: 120px;
+    width: 120px;
+}
+.siteheader{
+    font-size: 40px;
+    color: #0B97B6;
+    transform: translateY(22%);
+    font-family: 'Courier' Prime;
+}
+.forumimage{
+   float: right;
+   transform: translateY(-60px);
+   padding-right: 7% ;
+}
+.forum{
+    font-size: 20px;
+    padding-left: 20%;
+    transform: translateY(-2px);
+}
+.menumain{
+font-size: 20px;
+text-align: center;
+letter-spacing: 1px;
+padding: 10px;
+font-family: 'Inter',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.mainzagolovok{
+    font-size: 30px;
+    text-align: center;
+    transform: translateY(20px);
+    font-weight: 550;
+    font-style: italic;
+}
+.mainphoto{
+    text-align: center;
+    transform: translateY(40px);
+}
+.buttons-communications{
+ display: flex;
+ flex-direction: column;
+ transform: translateY(150px);
+ padding: 0px 0px;
+ margin-left:0px;
+ margin-right:0px;
+ margin: 0px;
+ padding-left: 120px;
+}
+.button1{
+    background-color: white;
+    border: none;
+    opacity: 90%;
+    font-size: 22px;
+    width: 283px;
+    height: 38px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left:0px;
+    margin-right:0px;
+}
+.button2{
+    background-color: #0057FF;
+    border: none;
+    opacity: 90%;
+    font-size: 22px;
+    width: 283px;
+    height: 38px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left:0px;
+margin-right:0px;
+}
+.button3{
+background-color: #FF0000;
+border: none;
+opacity: 90%;
+font-size: 22px;
+color: white;
+width: 283px;
+height: 38px;
+margin: 10px;
+border-radius: 5px;
+margin-left:0px;
+margin-right:0px;
+}
+.button4{
+    background-color: #FFB800;
+    border: none;
+    opacity: 90%;
+    font-size: 22px;
+    width: 283px;
+    height: 38px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left:0px;
+margin-right:0px;
+}
+.button-explanation{
+font-size: 22px;
+padding-left: 403px;
+position: absolute;
+transform: translateY(-68px);
+}
+.author{
+    transform: translateY(180px);
+    padding-left: 20px;
+}
