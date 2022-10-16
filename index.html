@@ -59,5 +59,22 @@
 					для детей,подростков и их родителей</p>
 			</div>
 			<div class="author"><p>Разработка сайта"<a href="">ГПБОУ ВПК</a>"</p></div>
-</body>
+			<button class="open-button" onclick="openForm()">Появился вопрос?</button>
+
+			<div class="form-popup" id="myForm">
+			  <form class="form-container">
+				<h1 align="center">Задать вопрос</h1>
+			
+				<label for="email"><b>Введите ваш e-mail:</b></label>
+				<input type="text" placeholder="Ваш e-mail" name="text" required>
+			  
+			  <label for="text"><b>Введите вопрос:</b></label>
+				<input type="text" placeholder="Ваш вопрос" name="text" required>
+			
+				<button type="submit" class="btn">Отправить</button>
+				<button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+			  </form>
+			</div>
+			<script src="index.js"></script>
+		</body>
 </html>
